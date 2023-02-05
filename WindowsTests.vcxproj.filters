@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Windows">
+      <UniqueIdentifier>{73c45b49-c489-4441-a08f-8e9dacd443a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Windows">
+      <UniqueIdentifier>{7140e4a7-0659-4613-9bd3-8aba8ba13ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Engine">
+      <UniqueIdentifier>{e0a80b6b-6c20-40d3-b19a-2112b037619e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Model">
+      <UniqueIdentifier>{05f3ada3-2ffd-4bae-be72-1839e36083c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Model">
+      <UniqueIdentifier>{568cc905-dd24-41b9-b0d7-f2a8e5d141cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine">
+      <UniqueIdentifier>{c253f3de-212d-46f2-a6c7-a559e3cf7b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Controller">
+      <UniqueIdentifier>{7ca2099f-da37-4e57-a73d-b16d4017954b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Controller">
+      <UniqueIdentifier>{dd314c8c-eb5a-40bd-81f3-c9a83f51483b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsTests.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Файлы заголовков\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtraTestWindow.h">
+      <Filter>Файлы заголовков\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskService.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonFileParser.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerWindow.h">
+      <Filter>Файлы заголовков\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskList.h">
+      <Filter>Файлы заголовков\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Watch.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTaskWindow.h">
+      <Filter>Файлы заголовков\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="InterWindowController.h">
+      <Filter>Файлы заголовков\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowW.h">
+      <Filter>Файлы заголовков\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeService.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeButtonsWindow.h">
+      <Filter>Файлы заголовков\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="TomorowListWindow.h">
+      <Filter>Файлы заголовков\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="WeekListWindow.h">
+      <Filter>Файлы заголовков\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WindowsTests.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtraTestWindow.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerWindow.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskService.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonFileParser.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskList.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Watch.cpp">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowW.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="InterWindowController.cpp">
+      <Filter>Исходные файлы\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTaskWindow.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeService.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeButtonsWindow.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="TomorowListWindow.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="WeekListWindow.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowsTests.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="WindowsTests.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
