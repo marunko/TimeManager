@@ -79,7 +79,7 @@ void TaskList::createTaskWindow(int i, Task &task, int x, int y)
         }
     }
 
-    int t=1000+i;
+    int t=1000+i;//q
     std::string s3 = "r-"+std::to_string(i);
     subwindows[5] = CreateWindowA("button", s3.c_str(), WS_BORDER | WS_CHILD | WS_VISIBLE,
         610, 25, 100, 50, parent, (HMENU)t, 0, NULL);
